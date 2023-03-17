@@ -1,0 +1,44 @@
+/* Importing a Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto+Slab&display=swap');
+/* Changing the main font and background colour */
+
+body {
+	font-family: 'Roboto Slab', serif;
+	background-color:#f4dcd0;
+	background-image: url("../images/noise background.png");
+	opacity: 0.85;
+  pointer-events: none;
+  animation: noise 1s steps(2) infinite;
+}
+
+/* Changing the background colour for the header */
+
+header {
+	background-color:#6976a6;
+}
+
+/* Changing the background color for the navigation bar */
+
+.navbar {
+	background-color: #6976a6;
+	
+	
+}
+
+/* Effect on social media buttons */
+
+footer a:hover {
+	opacity: .5;
+}
+
+/* Corporate navbar */
+
+#navbar-corporate a.active {
+	color: #800000;
+	font-weight: bold;
+}
+.navbar-brand{
+	margin-left:2%;
+}
+
+
